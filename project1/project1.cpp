@@ -64,8 +64,10 @@ int main()
     
     while(1) {
         WeeklySales = GetInput();
-        if (WeeklySales == 0)
+        if (WeeklySales == 0){
+            cout << "Exiting Program";
             exit(0);
+        }
         CalcMethod1();
         CalcMethod2(WeeklySales);
         CalcMethod3(WeeklySales);
