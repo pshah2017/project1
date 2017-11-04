@@ -65,7 +65,7 @@ int main()
     while(1) {
         WeeklySales = GetInput();
         if (WeeklySales == 0){
-            cout << "Exiting Program";
+            cout << "Exiting Program" << endl;
             exit(0);
         }
         CalcMethod1();
